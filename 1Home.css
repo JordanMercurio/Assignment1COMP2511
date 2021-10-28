@@ -4,14 +4,13 @@ header {
     border: 4pt solid #FFFFFF;
     padding: 5px;
     margin: -19px;
-    
+    margin-right: auto
 }
 
 li {
     display: inline;
     font-size: 1.25em;
     color: royalblue;
-    margin: 1em;
     position:relative;
     left: 950px;
     bottom: 30px;
@@ -63,5 +62,4 @@ h1 {
     font-size: 2em;
     
 }
-
 
