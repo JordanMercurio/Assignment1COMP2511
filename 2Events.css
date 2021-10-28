@@ -3,9 +3,9 @@ header {
     background-color: #FFFFFF;
     border: 4pt solid #FFFFFF;
     padding: 5px;
-    margin: -19px;
-    width: 1358px;
-    margin-right: auto
+    margin: -9px;
+    border-width: 20px
+    margin-right: auto;
 }
 
 li {
