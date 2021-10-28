@@ -14,7 +14,7 @@ li {
     font-size: 1.25em;
     color: royalblue;
     position:relative;
-    left: 950px;
+    left: 70%;
     bottom: 30px;
     padding: 10px;
     
@@ -53,18 +53,15 @@ div.clubs {
 
 figure {
     position:relative;
-    left: -38px;
     width: 100%;
     height: auto;
-    top: -20px;
-    margin: auto;
+    top: -10px;
+    margin:auto;
     
 }
 h1 {
    position:relative;
     left: 0px;
     top: 15px;
-    font-size: 2em;
-    
+    font-size: 2em;   
 }
-
