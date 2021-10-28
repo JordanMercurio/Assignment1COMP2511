@@ -1,0 +1,33 @@
+header {
+    color: royalblue;
+    background-color: #FFFFFF;
+    border: 4pt solid #FFFFFF;
+    padding: 5px;
+    margin: -9px;
+    width: 100%;
+    height: auto;
+}
+
+li {
+    display: inline;
+    font-size: 1.25em;
+    color: royalblue;
+    position:relative;
+    left: 950px;
+    bottom: 30px;
+    padding: 10px;
+    
+}
+
+body {
+    
+    background-color: #D3D3D3;
+}
+
+h1 {
+   position:relative;
+    left: 0px;
+    top: 15px;
+    font-size: 2em;
+    
+}
