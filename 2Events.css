@@ -28,7 +28,43 @@ h1 {
    position:relative;
     left: 0px;
     top: 15px;
-    font-size: 2em;
-    
+    font-size: 2em;   
 }
 
+caption {
+    background-color: royalblue;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    height: 40px;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+div.event {
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 3pt solid #FFFFFF;
+    padding: 5px;
+    margin: auto;
+    width: 200px;
+    
+}
