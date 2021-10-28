@@ -4,8 +4,9 @@ header {
     border: 4pt solid #FFFFFF;
     padding: 5px;
     margin: -9px;
-    border-width: 20px
-    margin-right: auto;
+    width: 100%;
+    height: auto;
+    
 }
 
 li {
@@ -51,13 +52,12 @@ div.clubs {
 }
 
 figure {
-    position:fixed;
-    left: -40px;
-    width: auto;
-    top: 90px;
-    margin: 30px;
-    border-bottom-width: 20px
-    margin-right: auto;
+    position:relative;
+    left: -38px;
+    width: 100%;
+    height: auto;
+    top: -20px;
+    margin: auto;
     
 }
 h1 {
