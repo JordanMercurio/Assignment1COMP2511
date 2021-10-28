@@ -1,11 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
         <meta charset="utf-8">
-        <title>Forms</title>
-    
+        <title>Event Sign Ups!</title>
     </head>
     
-    <form method="get" action="jmerc673@mtroyal.ca">
-    </form>
+    <body>  
+        
+        <form method="get" action="Results.html">
+            
+            <img src="Images/destiny-2-icon-22.png" alt="Destiny 2 logo" width="80"
+                 height="80">
+            <h2>Event Sign Up</h2>
+            <h3>Sign Up To The Event Of Your Choice!</h3>
+            
+                <fieldset>
+                    
+                    <legend><strong>Event Information</strong></legend>
+                <p>
+                    <label>
+                        <input name="trip" type="radio" value="one-way">
+                        One-way
+                    </label>
+                    
+                    <label>
+                        <input name="trip" type="radio" value="two-way">
+                        Two-way
+                    </label>
+                </p>
+                    
+                <p>
+                    <label>From*
+                        
+                        <select name="cities">
+                            <option selected> Choose a City</option>
+                            <option>Toronto</option>
+                            <option>Calgary</option>
+                            <option>Vancouver</option>
+                            <option>Montreal</option>
+                            <option>Quebec</option>
+                            <option>Winnipeg</option>
+                            <option>Victoria</option>
+                            
+                        </select>
+                        
+                    </label>    
+                        
+                    <label>To*
+                        
+                         <select name="cities">
+                             
+                            <option selected> Choose a City</option>
+                            <option>Toronto</option>
+                            <option>Calgary</option>
+                            <option>Vancouver</option>
+                            <option>Montreal</option>
+                            <option>Quebec</option>
+                            <option>Winnipeg</option>
+                            <option>Victoria</option>
+                        
+                        </select>
+                        
+                    </label>
+                </p>
+                    
+                <p>
+                    <label>Departing*
+                            <input name="date" type="date">
+                    </label> 
+                    
+                    <label>Arriving*
+                            <input name="date" type="date">
+                    </label>
+                </p>
+                    
+                <p>
+                    <label>Adults
+                            <input name="num" type="number" min="1" max="10" value="1">
+                    </label>
+                    
+                    <label>Children
+                            <input name="num" type="number" min="0" max="0" value="0">
+                    </label>
+                </p>
+                    
+                <p>
+                    <label> 
+                            <input name="hotel" type="checkbox" value="Add a hotel"> Add a Hotel
+                    </label>    
+                    
+                    <label>
+                            <input name="car" type="checkbox" value="Add a car"> Add a Car
+                    </label>
+                    
+                    <label>
+                            <input name="travel guide" type="checkbox" value="Add a travel guide"> Add a Travel Guide
+                    </label>
+                </p>
+                </fieldset>
+            
+            <br>
+        
+                <fieldset>
+                    
+                   <legend><strong>Personal Information</strong></legend> 
+                    
+                <p>
+                    <label> Name:
+                            <input name="name" type="text">
+                    </label>    
+                        
+                </p>
+                    
+                <p>
+                    <label>Phone:
+                            <input name= "phone" type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="123-123-1234">
+                    </label>    
+                </p>
+                    
+                <p>
+                    <label>Email:
+                            <input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="20">
+                    </label>    
+                </p>
+                    
+                </fieldset>
+            
+            <br>
+            
+                <input name="search" type="submit">
+                <input name="clear" type="reset">
+        </form>
+        
+    </body>
+
+</html>

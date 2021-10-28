@@ -1,6 +1,10 @@
 header {
     color: royalblue;
-    background-color: #ADD8E6
+    background-color: #FFFFFF;
+    border: 4pt solid #FFFFFF;
+    padding: 5px;
+    margin: -19px;
+    
 }
 
 li {
@@ -8,6 +12,9 @@ li {
     font-size: 1.25em;
     color: royalblue;
     margin: 1em;
+    position:relative;
+    left: 950px;
+    bottom: 30px;
 }
 
 body {
@@ -46,7 +53,10 @@ figure {
     width: 685px;
     
 }
-#Events {
+h1 {
+   position:relative;
+    left: 0px;
+    top: 15px;
     
 }
 
