@@ -112,3 +112,10 @@ div.FrenchClub {
 div.Logo {
     float: left;
 }
+
+footer {
+    float: right;
+    position: relative;
+    top: 660px;
+}
+ 

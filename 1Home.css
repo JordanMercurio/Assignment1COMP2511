@@ -72,3 +72,9 @@ h1 {
 div.Logo {
     float: left;
 }
+
+footer {
+    float: right;
+    position: relative;
+    top: 50px;
+}

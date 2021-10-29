@@ -73,6 +73,8 @@ div.Logo {
     float: left;
 }
 
-footer{
-    margin-right: auto;
+footer {
+    float: right;
+    position: relative;
+    top: 120px;
 }
