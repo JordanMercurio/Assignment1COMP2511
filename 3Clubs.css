@@ -32,25 +32,79 @@ h1 {
 }
 
 div.CSS {
-    
+    color: #2F4F4F;
+    position: fixed;
+    left: 15%;
+    width: 200px;
+    top: 150px;
+    height: 280px;
+    background-color: #FFFFFF;
+    border: 2pt solid #FFFFFF;
+    margin: auto;
+    padding: 5px;
 }
 
-div. Art Club {
-    
+div.ArtClub {
+    color: #2F4F4F;
+    position: fixed;
+    left: 40%;
+    width: 200px;
+    top: 150px;
+    height: 280px;
+    background-color: #FFFFFF;
+    border: 2pt solid #FFFFFF;
+    margin: auto;
+    padding: 5px;
 }
 
-div. Filipino Club {
-    
+div.FilipinoClub {
+    color: #2F4F4F;
+    position: fixed;
+    left: 65%;
+    width: 200px;
+    top: 150px;
+    height: 280px;
+    background-color: #FFFFFF;
+    border: 2pt solid #FFFFFF;
+    margin: auto;
+    padding: 5px;
 }
 
-div. Game Design Club {
-    
+div.GameDesignClub {
+    color: #2F4F4F;
+    position: fixed;
+    left: 15%;
+    width: 200px;
+    top: 450px;
+    height: 280px;
+    background-color: #FFFFFF;
+    border: 2pt solid #FFFFFF;
+    margin: auto;
+    padding: 5px;
 }
 
-div. Outdoors Club {
-    
+div.OutdoorsClub {
+    color: #2F4F4F;
+    position: fixed;
+    left: 40%;
+    width: 200px;
+    top: 450px;
+    height: 280px;
+    background-color: #FFFFFF;
+    border: 2pt solid #FFFFFF;
+    margin: auto;
+    padding: 5px;
 }
 
-div. French Club {
-    
+div.FrenchClub {
+    color: #2F4F4F;
+    position: fixed;
+    left: 65%;
+    width: 200px;
+    top: 450px;
+    height: 280px;
+    background-color: #FFFFFF;
+    border: 2pt solid #FFFFFF;
+    margin: auto;
+    padding: 5px;
 }
