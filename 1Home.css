@@ -53,14 +53,13 @@ div.clubs {
 }
 
 figure {
-    display: block;
     position:fixed;
     width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     max-height: 100%;
-    max-width: 100%; 
+    max-width: 100%;
 }
 h1 {
    position:relative;
