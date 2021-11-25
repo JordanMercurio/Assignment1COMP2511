@@ -108,4 +108,10 @@ footer {
     float: right;
     position: relative;
     top: 600px;
+    background-color: #FFFFFF;
+    border: 4pt solid #FFFFFF;
+    padding: 5px;
+    margin: -9px;
+    width: 100%;
+    height: auto;
 }
