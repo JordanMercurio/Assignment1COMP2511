@@ -108,10 +108,17 @@ footer {
     float: right;
     position: relative;
     top: 600px;
+<<<<<<< HEAD
     background-color: #FFFFFF;
     border: 4pt solid #FFFFFF;
     padding: 5px;
     margin: -9px;
     width: 100%;
     height: auto;
+=======
+}
+
+@media screen and (max-width:480px){
+    
+>>>>>>> 6e119ecb535d62135d246730483ff24339a07286
 }

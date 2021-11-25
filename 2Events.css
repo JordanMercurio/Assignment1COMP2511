@@ -81,6 +81,7 @@ div.Logo {
 footer {
     float: right;
     position: relative;
+<<<<<<< HEAD
     top: 600px;
     background-color: #FFFFFF;
     border: 4pt solid #FFFFFF;
@@ -88,4 +89,11 @@ footer {
     margin: -9px;
     width: 100%;
     height: auto;
+=======
+    top: 100px;
+}
+
+@media screen and (max-width:480px){
+    
+>>>>>>> 6e119ecb535d62135d246730483ff24339a07286
 }
