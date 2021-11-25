@@ -52,6 +52,33 @@ div.clubs {
     padding: 5px;
 }
 
+div.descrip1{
+    color: #2F4F4F;
+    position: fixed;
+    right: 80%;
+    width: 200px;
+    top: 320px;
+    height: 380px;
+    background-color: #FFFFFF;
+    border: 2pt solid #FFFFFF;
+    margin: auto;
+    padding: 5px;
+    
+}
+
+div.descrip2{
+    color: #2F4F4F;
+    position: fixed;
+    left: 75%;
+    width: 200px;
+    top: 320px;
+    height: 380px;
+    background-color: #FFFFFF;
+    border: 2pt solid #FFFFFF;
+    margin: auto;
+    padding: 5px;
+}
+
 figure {
     position:fixed;
     width: 100%;
