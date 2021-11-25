@@ -26,7 +26,7 @@ nav{
 
 body {
     
-    background-color: #D3D3D3;
+    background-color: #fff;
 }
 
 h1 {
@@ -82,7 +82,8 @@ footer {
     float: right;
     position: relative;
     top: 100px;
-    background-color: #FFFFFF;
+    background-color: #333;
+    color: #fff;
     border: 4pt solid #FFFFFF;
     padding: 5px;
     margin: -9px;

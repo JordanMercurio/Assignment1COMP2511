@@ -1,13 +1,14 @@
 .wrapper{
     display: grid;
     height: 100%;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr , 1fr;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
     grid-gap: 10px;
 }
 
 .content{
-    background-color: white;
+    background-color: #333;
+    color: #fff;
     border-radius: 20px;
     padding: 5px 30px;
    
@@ -45,7 +46,7 @@ nav{
 
 body {
     
-    background-color: #D3D3D3;
+    background-color: #FFFFFF;
 }
 
 h1 {
@@ -65,7 +66,8 @@ footer {
     float: right;
     position: relative;
     top: 62px;
-    background-color: #FFFFFF;
+    background-color: #333;
+    color: #fff;
     border: 4pt solid #FFFFFF;
     padding: 5px;
     margin: -9px;
