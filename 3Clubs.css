@@ -1,24 +1,21 @@
 .wrapper{
-    display: grid;
-    height: 100%;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr;
+    display: flex;
+    width: 100%;
     grid-gap: 10px;
+    flex-wrap: wrap;
+    
 }
 
-.content{
+.box{
     background-color: #333;
     color: #fff;
+    width: 100%;
+    height 200px;
     border-radius: 20px;
-    padding: 5px 30px;
-   
-
+    padding: 5px 20px;
 }
 
-#item2{
-    grid-column: 2/3
-}
-header {
+header{
     color: royalblue;
     background-color: #FFFFFF;
     border: 4pt solid #FFFFFF;
@@ -30,7 +27,7 @@ header {
 
 nav{
     display: flex;
-    justify-content:center;
+    justify-content:flex-end;
     align-items:center;
     top: 
 }
@@ -75,7 +72,25 @@ footer {
     height: auto;
 }
 
-@media screen and (max-width:480px){
-    
+@media screen and (min-width:450px){
+    #item1, #item2{
+        width: 100%;
+    }
 }
  
+@media screen and (min-width:550px){
+    #item3{
+        width: 100%;
+    }
+    #item4, #item5, #item6{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:700px){
+    .wrapper{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
