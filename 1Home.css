@@ -132,12 +132,4 @@ tr:hover {
     background-color: yellow;
 }
 
-div.event {
-    background-color: #FFFFFF;
-    text-align: center;
-    border: 3pt solid #FFFFFF;
-    padding: 5px;
-    margin: auto;
-    width: 200px;
-    
-}
+
