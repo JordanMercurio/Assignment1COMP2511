@@ -28,7 +28,7 @@ nav{
 }
 
 figure {
-    position:fixed;
+    position:relative;
     width: 100%;
     height: auto;
     margin-left: auto;
@@ -63,18 +63,6 @@ body {
     justify-content:center;
     font-size:15px;
     font-family:sans-serif;
-}
-
-
-
-figure {
-    position:fixed;
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 100%;
-    max-width: 100%;
 }
 
 h1 {
